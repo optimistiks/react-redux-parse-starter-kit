@@ -21,3 +21,4 @@ work in progress
 * add redux dev tools
 * add redux-actions
 * add more tests
+* split config to dev/prod
