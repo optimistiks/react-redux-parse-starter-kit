@@ -1,0 +1,47 @@
+{
+  "rules": {
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "object-curly-spacing": [
+      2,
+      "never"
+    ],
+    "react/jsx-uses-react": 1,
+    "eol-last": 2,
+    "no-var": 2,
+    "prefer-const": 2
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "jsx": true,
+    "experimentalObjectRestSpread": true,
+    "modules": true
+  },
+  "plugins": [
+    "react"
+  ]
+}
