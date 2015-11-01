@@ -20,3 +20,4 @@ work in progress
 * add auth flow
 * add redux dev tools
 * add redux-actions
+* add more tests
