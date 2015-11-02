@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import {sampleReducer} from '../reducers/index';
+import {currentUser} from '../reducers/index';
 
 const reducer = combineReducers({
-    sampleReducer
+    currentUser
 });
 
 export default reducer;
