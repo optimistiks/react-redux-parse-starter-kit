@@ -21,3 +21,4 @@ work in progress
 * add redux dev tools
 * add more tests
 * split config to dev/prod
+* add react hot reloading (https://github.com/gaearon/react-transform-boilerplate when it works with babel 6)
