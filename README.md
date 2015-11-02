@@ -16,9 +16,8 @@ work in progress
 
 ## Todo
 
-* remove axios and material-ui from deps
-* add auth flow
+* ~~remove axios and material-ui from deps~~
+* ~~add auth flow~~
 * add redux dev tools
-* add redux-actions
 * add more tests
 * split config to dev/prod
