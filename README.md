@@ -1,6 +1,4 @@
-# react-redux-parse-starter-kit
-
-Kickstart your application with React, Redux and Parse.
+# Kickstart your application with React, Redux and Parse.
 
 ```npm run watch``` to start a webpack dev server.
 
