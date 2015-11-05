@@ -10,8 +10,8 @@
     "test": "jest",
     "lint": "eslint --ext .js --ext .jsx src"
   },
-  "author": "optimistiks",
-  "license": "ISC",
+  "author": "Maxim Potapov",
+  "license": "MIT",
   "dependencies": {
     "parse": "^1.6.8",
     "react": "^0.14.1",
