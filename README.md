@@ -26,3 +26,4 @@ work is in progress...
 * add more tests
 * split config to dev/prod
 * add react hot reloading (https://github.com/gaearon/react-transform-boilerplate when it works with babel 6)
+* add .babelrc
