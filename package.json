@@ -13,6 +13,7 @@
   "author": "Maxim Potapov",
   "license": "MIT",
   "dependencies": {
+    "history": "^1.13.0",
     "parse": "^1.6.8",
     "react": "^0.14.1",
     "react-addons-create-fragment": "^0.14.1",
