@@ -1,6 +1,12 @@
 # react-redux-parse-starter-kit
 
-work in progress
+Kickstart your application with React, Redux and Parse.
+
+```npm run watch``` to start a webpack dev server.
+
+```npm run build``` to build a production version.
+
+work is in progress...
 
 ## What is included
 
@@ -9,7 +15,7 @@ work in progress
 * redux
 * react-router
 * webpack
-* babel
+* babel (ES6 Stage 0)
 * jest
 * eslint
 
