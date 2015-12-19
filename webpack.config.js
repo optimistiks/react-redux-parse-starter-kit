@@ -1,7 +1,13 @@
 var path = require('path');
 
 module.exports = {
-    entry: './index.js',
+    entry: [
+        // Set up an ES6-ish environment
+        'babel-polyfill',
+
+        // Add your application's scripts below
+        './index.js',
+    ],
     devtool: 'source-map',
     output: {
         path: path.join(__dirname, 'www'),
@@ -10,19 +16,19 @@ module.exports = {
     module: {
         preLoaders: [
             {
-                test: /\.jsx?$/,
+                loader: 'eslint-loader',
                 exclude: /node_modules/,
-                loader: 'eslint-loader'
+                test: /\.jsx?$/,
             }
         ],
         loaders: [
             {
-                test: /\.jsx?$/,
-                exclude: /node_modules/,
                 loader: 'babel',
-                query: {presets: ['es2015', 'react', 'stage-1'], cacheDirectory: true}
+                exclude: /node_modules/,
+                test: /\.jsx?$/,
             },
-            {test: /\.css$/, loader: 'style!css'}
+            { test: /\.css$/, loader: 'style!css' },
+
         ]
     },
     eslint: {

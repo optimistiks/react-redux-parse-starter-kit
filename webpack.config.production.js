@@ -3,7 +3,13 @@ var webpack = require('webpack');
 
 
 module.exports = {
-    entry: './index.js',
+    entry: [
+        // Set up an ES6-ish environment
+        'babel-polyfill',
+
+        // Add your application's scripts below
+        './index.js',
+    ],
     output: {
         path: path.join(__dirname, 'www'),
         filename: 'bundle.js'
@@ -11,12 +17,12 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.jsx?$/,
-                exclude: /node_modules/,
                 loader: 'babel',
-                query: {presets: ['es2015', 'react'], cacheDirectory: true}
+                exclude: /node_modules/,
+                test: /\.jsx?$/,
             },
-            {test: /\.css$/, loader: 'style!css'}
+            { test: /\.css$/, loader: 'style!css' },
+
         ]
     },
     plugins: [
