@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Since Parse is about to shutdown, this package is no longer maintained.
+
 # Kickstart your application with React, Redux and Parse.
 
 ```npm run watch``` to start a webpack dev server.
